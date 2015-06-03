@@ -1,0 +1,98 @@
+pre[class*="language-"]{
+    padding: 12px;
+}
+pre[class*="language-"]:before{
+    display: none;
+}
+#index-banner h1{
+    margin-top: 1.68rem;
+}
+.side-nav i{
+    vertical-align: middle;
+}
+ul.side-nav.fixed li.logo{
+    margin-top: 11px;
+}
+nav .brand-logo{
+    font-weight: 700;
+}
+#logo-container {
+    color: #EE6E73;
+    font-weight: 800;
+    height: 53px;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+.youtube-section{
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+.youtube-section .header,
+.youtube-section .caption{
+    color: #ffffff;
+}
+#youtube-container{
+    margin-bottom: 10px;
+}
+#youtube-container .card .card-content .card-title{
+    line-height: 27px;
+    font-size: 21px;
+}
+#youtube-container .card .card-reveal .card-title{
+    line-height: 27px;
+    font-size: 25px;
+}
+@media only screen and (min-width : 601px) {
+    .container {
+        width: 95%; }
+}
+
+/*Button*/
+@-webkit-keyframes heartbeat {
+    0%, 30%, 50%, 80% {
+        -webkit-transform: scale(1);
+    }
+    50%, 70% {
+        -webkit-transform: scale(1.1);
+    }
+    40%, 60% {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@keyframes heartbeat {
+    0%, 30%, 50%, 80% { transform: scale(1); }
+    50%, 70% { transform: scale(1.1); }
+    40%, 60% { transform: scale(1.2); }
+}
+
+.demoAnimate.heartbeat{
+    -webkit-animation-name: heartbeat;
+    animation-name: heartbeat;
+}
+
+.demoAnimate.infinite{
+    -webkit-animation-iteration-count : infinite;
+    animation-iteration-count : infinite;
+}
+.demoAnimate{
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.input-field label.active, label{
+    font-size: .95rem;
+    font-weight: 400;
+}
+.social-share{
+    display: inline-block;
+}
+.plusone-wrap{
+    display: inline-block;
+}
+.plusone-wrap > div{
+    vertical-align: bottom !important;
+}

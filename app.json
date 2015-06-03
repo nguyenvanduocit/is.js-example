@@ -1,0 +1,9 @@
+{
+  "repository" : "nguyenvanduocit/HeadroomJs-Generator",
+  "cs" : "http://laptrinh.senviet.org",
+  "title" : "is.js example",
+  "description" : "Thư viện giúp kiểm tra biến.",
+  "scripts":["js/is.js", "js/check.js"],
+  "styles":["css/demo.css"],
+  "GAID" : "UA-52973734-5"
+}
